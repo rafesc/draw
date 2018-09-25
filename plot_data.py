@@ -55,7 +55,7 @@ if __name__ == '__main__':
         else:
             plt.matshow(img, cmap=plt.cm.gray)
             imgname = '%s_%d.png' % (
-            prefix, t)  # you can merge using imagemagick, i.e. convert -delay 10 -loop 0 *.png mnist.gif
+                prefix, t)  # you can merge using imagemagick, i.e. convert -delay 10 -loop 0 *.png mnist.gif
             plt.savefig(imgname)
             print(imgname)
     f = plt.figure()
